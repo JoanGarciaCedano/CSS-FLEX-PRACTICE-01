@@ -5,13 +5,18 @@ body{
 .container{
     border: 6px solid black;
     display: flex;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
-    height: 400px;
-    flex-flow: column-reverse wrap-reverse;
+    flex-direction: column;
+    height: 800px;
+    justify-content: space-evenly;
     /*
-    flex-flow-> Shorthand for flex direction and flex wrap.
-    flex-flow: <flex-direction> <flex-wrap>
+    justify-content-> Align items and distribute any extra spacing in the parent container.
+    The alignment is always along the main axis.
+    jusfify-content: flex-start;
+    jusfify-content: flex-end;
+    jusfify-content: center;
+    jusfify-content: space-between;
+    jusfify-content: space-around;
+    justify-content: space-evenly;
     */
 }
 
