@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+}
+
+.container{
+    border: 6px solid black;
+    display: flex;
+    /*
+    flex-basis -> Set the initial size of a flex item.
+
+    Pixels, percentages or relative units.
+
+    Default value is auto
+    */
+}
+
+.flex-item{
+    color:white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    /* flex-shrink: 0; */
+}
+
+.item-1{
+    background-color: #B4BF35;
+    flex-basis: 400px;
+}
+
+.item-2{
+    background-color: #B95F21;
+    flex-shrink: 4;
+}
+
+.item-3{
+    background-color: #1C4C56;
+    order: 1;
+}
+
+.item-4{
+    background-color: #CfB276;
+}
+
+.item-5{
+    background-color: #6B0803;
+}
+
+.item-6{
+    background-color: #1C4C56;
+}
+
+.item-7{
+    background-color: #B95F21;
+    order: 2;
+}
+
+.item-8{
+    background-color: #CfB276;
+}
+
+.item-9{
+    background-color: #6B0803;
+}
