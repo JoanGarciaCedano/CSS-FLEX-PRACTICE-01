@@ -4,7 +4,15 @@ body{
 
 .container{
     border: 6px solid black;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column-reverse;
+    /*
+    flex-direction -> Sets the direction of the main axis.
+    row
+    row-reverse
+    column
+    column-reverse
+    */
 }
 
 .flex-item{
